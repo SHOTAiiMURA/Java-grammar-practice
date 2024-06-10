@@ -58,7 +58,13 @@ public class grammar {
         for (i = 0; i < car.length; i++){
             System.out.println(car[i]);
         }
-
-
+        int n = 1;
+        while (n < 6){
+            System.out.println(i);
+            i++;
+        }
+        for (int i = 0; i < 5; i++){
+            System.out.println(i);
+        }
     }
 }
