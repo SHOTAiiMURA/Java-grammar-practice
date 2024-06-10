@@ -48,6 +48,16 @@ public class grammar {
                 System.out.println("Friday");
                 break;
         }
+        String[] car =  {"Volvo","BMW","Ford","Toyota"};
+        car[1] = "Honda";
+        System.out.println(car.length);
+        System.out.println(car[3]);
+
+        int[][] myNumbers_array = {{1,2,3,4},{5,6,7}};
+        System.out.println(myNumbers_array.length);
+        for (i = 0; i < car.length; i++){
+            System.out.println(car[i]);
+        }
 
     }
 }
